@@ -4,8 +4,8 @@ using System.IO;
 
 public class Letter
 {
-    public char Symbol { get; set; }
-    public int Frequency { get; set; }
+    public char Symbol;
+    public int Frequency;
 
     public static List<Letter> ReturnLettersCount(string fileName)
     {
